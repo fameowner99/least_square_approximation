@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vmiachko/univ/numeric/lab1/Matrix.hpp
+vector
+-
+iostream
+-
+cmath
+-
+
+/Users/vmiachko/univ/numeric/lab1/lab1.cpp
+SDL2/SDL.h
+-
+iostream
+-
+vector
+-
+Matrix.hpp
+/Users/vmiachko/univ/numeric/lab1/Matrix.hpp
+
